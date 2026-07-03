@@ -1,0 +1,48 @@
+# ---- Large data files ----
+*.json
+*.jsonl
+*.zip
+*.tar
+*.tar.gz
+
+# ---- Model checkpoints & weights ----
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.npy
+
+# ---- Logs ----
+*.log
+nohup.out
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ---- Experiments / scratch ----
+babylm-eval/
+lcg_random_vit_checkpoints/
+ckpt_*/
+gptbert_ckpt*/
+teacher_feedback/checkpoints/
+teacher_feedback/data/
+teacher_feedback/logs/
+babylm_eng_baseline_model/
+babylm_eng_baseline_tokenizer/
+annotations_trainval2017.zip
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+*.DS_Store
+*.swp
+
+# ---- Notebook checkpoints ----
+.ipynb_checkpoints/
