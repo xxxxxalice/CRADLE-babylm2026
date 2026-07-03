@@ -178,6 +178,22 @@ pip install torch transformers datasets huggingface_hub numpy tqdm
 
 ---
 
+## Acknowledgments
+
+The GPT-BERT hybrid pre-training architecture is re-implemented from the system
+that won the BabyLM 2025 Strict track, as described in the challenge findings
+([Charpentier et al., 2025](https://aclanthology.org/2025.conll-babylm.1/)).
+All training code in this repository is independently written using
+[HuggingFace Transformers](https://github.com/huggingface/transformers) and
+[PyTorch](https://pytorch.org/) as backends.
+
+SimPER post-training is based on:
+- SimPER: Meng et al. (2025) — [arXiv:2502.00883](https://arxiv.org/abs/2502.00883)
+- SimPO: Meng et al. (2024) — [arXiv:2405.14734](https://arxiv.org/abs/2405.14734)
+
+Teacher labelling uses [Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B),
+an approved external model under BabyLM 2026 rules.
+
 ## License
 
 Code: MIT License  
